@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.scss'
-import Image from '../images/India.png'
+
 export const Main = () => {
   return (
     <div className='main'>
