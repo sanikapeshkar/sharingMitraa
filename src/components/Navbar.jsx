@@ -1,11 +1,12 @@
 import React from 'react'
 import './style.scss'
 import Image from '../images/logo.png'
+import {Donate} from '../pages/Donate'
 export const Navbar = () => {
   return (
-    <section class="navigation">
-    <div class="nav-container">
-      <div class="brand">
+    <section className="navigation">
+    <div className="nav-container">
+      <div className="brand">
         <a href="#!"><img src={Image} alt="sharingjmitra"></img></a>
       </div>
       <nav>
@@ -13,16 +14,16 @@ export const Navbar = () => {
       <a id="nav-toggle" href="#!"><span></span></a>
     </div>
     <ul class="nav-list">
-      <li><a href="#!">Home</a></li>
-      <li><a href="#!">About Us</a></li>
+      <li><a href="/">Home</a></li>
+      <li><a href="/aboutus">About Us</a></li>
       <li>
-        <a href="#!">Gallery</a>
+        <a href="/gallery">Gallery</a>
   
       </li>
  
-      <li><a href="#!">Contact Us</a></li>
+      <li><a href="/contact">Contact Us</a></li>
 
-      <button> Donate Now </button>
+      <button > <a href={Donate} >Donate Now</a> </button>
     </ul>
   </nav>
       </div>

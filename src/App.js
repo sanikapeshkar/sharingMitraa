@@ -5,7 +5,9 @@ import {
 import {Home} from './pages/Home'
 import {Login} from './pages/Login'
 import {Register} from './pages/Register'
-import "."
+
+import AboutUs from "./pages/AboutUs";
+import Gallery from "./pages/Gallery";
 function App() {
   const router = createBrowserRouter([
     {
@@ -19,6 +21,14 @@ function App() {
     {
       path: "/Register",
       element: <Register/>,
+    },
+    {
+      path: "/aboutus",
+      element: <AboutUs/>,
+    },
+    {
+      path: "/Gallery",
+      element: <Gallery/>,
     },
   ]);
   return (
