@@ -1,7 +1,9 @@
 import React from 'react'
 import './style.scss'
 import Image from '../images/logo.png'
-import {Donate} from '../pages/Donate'
+
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 export const Navbar = () => {
   return (
     <section className="navigation">
@@ -23,7 +25,21 @@ export const Navbar = () => {
  
       <li><a href="/contact">Contact Us</a></li>
 
-      <button > <a href={Donate} >Donate Now</a> </button>
+
+      <Popup trigger=
+                {<button> Donate </button>}
+                position="right top center">
+                <div>     We would like to extend our heartfelt gratitude for your willingness
+          to support our cause through donations. However, we regret to inform you that we have
+          reached our donation capacity and are unable to accept any further
+          contributions at this time. The overwhelming response from our
+          community has exceeded our expectations, and we are immensely  grateful
+          for the support we have received.
+          Therefore, we kindly request you to provide your email address, so we
+          can keep you informed about upcoming events, initiatives, and
+          potential future donation drives.
+</div>
+            </Popup>
     </ul>
   </nav>
       </div>

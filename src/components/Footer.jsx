@@ -1,5 +1,5 @@
-// import { AiFillInstagram, AiOutlineTwitter } from "react-icons/ai";
-// import { TiSocialFacebook, TiSocialLinkedin } from "react-icons/ti";
+import { AiFillInstagram, AiOutlineTwitter } from "react-icons/ai";
+import { TiSocialFacebook, TiSocialLinkedin } from "react-icons/ti";
 
 import Image from '../images/logo.png'
 import React from "react";
@@ -14,16 +14,16 @@ const Footer = () => {
         </a>
         <div className="social__icons">
           <span className="icon__container">
-            {/* <AiFillInstagram size={30} /> */}
+            <AiFillInstagram size={30} />
           </span>
           <span className="icon__container">
-            {/* <AiOutlineTwitter size={30} /> */}
+            <AiOutlineTwitter size={30} />
           </span>
           <span className="icon__container">
-            {/* <TiSocialFacebook size={30} /> */}
+            <TiSocialFacebook size={30} />
           </span>
           <span className="icon__container">
-            {/* <TiSocialLinkedin size={30} /> */}
+            <TiSocialLinkedin size={30} />
           </span>
         </div>
       </div>
