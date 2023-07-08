@@ -50,7 +50,7 @@ function Event() {
           SharingMitra conducted a Donation camp in August 2022 at Bhandewadi which is a alum near Nagpur District. We donated Books,laptops and various stationary items to the kids and orphage . It was a succesful event interacting with them .
          </p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date={<img src={Image} alt="image here " width="500px"></img>}
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
@@ -60,8 +60,9 @@ function Event() {
           <p>
           SharingMitra conducted a Donation camp in August 2022 at Bhandewadi which is a alum near Nagpur District. We donated Books,laptops and various stationary items to the kids and orphage . It was a succesful event interacting with them .
         </p>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
       </VerticalTimeline>
+      <br></br>
     </div>
   );
 }

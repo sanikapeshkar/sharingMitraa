@@ -23,7 +23,7 @@ export const Navbar = () => {
   
       </li>
  
-      <li><a href="/contact">Contact Us</a></li>
+      <li><a href="#footer">Contact Us</a></li>
 
 
       <Popup trigger=
