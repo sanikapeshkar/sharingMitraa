@@ -25,7 +25,7 @@ export const Groups = () => {
         <p>
           Children are our future. More than 4% of these children are orphaned
           at a very young age. Hence are forced to grow up without a remarkable
-          childhood. ​ Donate your excess books, and toys and gift them a little
+          childhood. ​Donate your excess books, and toys and gift them a little
           of your childhood.
         </p>
       </div>

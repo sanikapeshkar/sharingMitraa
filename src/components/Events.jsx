@@ -19,13 +19,9 @@ function Event() {
           iconStyle={{ background: "#FF007F", color: "#fff" }}
           icon=""
         >
-          <h2> Title of the Event </h2>
+          <h2>Donation at Bhandewadi</h2>
           <p>
-            You can copy the code into a Java IDE or editor, run it, and enter
-            the customer details in the specified format. The program will
-            calculate the total cost of the booking based on the number of
-            adults, children, and days. It will display the confirmation message
-            with the total cost or an error message if the input is invalid.
+            SharingMitra conducted a Donation camp in August 2022 at Bhandewadi which is a alum near Nagpur District. We donated Books,laptops and various stationary items to the kids and orphage . It was a succesful event interacting with them .
           </p>
         </VerticalTimelineElement>
 
@@ -36,13 +32,10 @@ function Event() {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon=""
         >
-          <h2> Title of the Event </h2>
+          <h2>Donation at Babarao Apte School </h2>
           <p>
-            You can copy the code into a Java IDE or editor, run it, and enter
-            the customer details in the specified format. The program will
-            calculate the total cost of the booking based on the number of
-            adults, children, and days. It will display the confirmation message
-            with the total cost or an error message if the input is invalid.
+          SharingMitra conducted a Donation camp in August 2022 at Bhandewadi which is a alum near Nagpur District. We donated Books,laptops and various stationary items to the kids and orphage . It was a succesful event interacting with them .
+        
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -52,14 +45,10 @@ function Event() {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon=""
         >
-          <h2> Title of the Event </h2>
+          <h2>Donation at orphanage </h2>
           <p>
-            You can copy the code into a Java IDE or editor, run it, and enter
-            the customer details in the specified format. The program will
-            calculate the total cost of the booking based on the number of
-            adults, children, and days. It will display the confirmation message
-            with the total cost or an error message if the input is invalid.
-          </p>
+          SharingMitra conducted a Donation camp in August 2022 at Bhandewadi which is a alum near Nagpur District. We donated Books,laptops and various stationary items to the kids and orphage . It was a succesful event interacting with them .
+         </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -69,12 +58,8 @@ function Event() {
         >
           <h2> Title of the Event </h2>
           <p>
-            You can copy the code into a Java IDE or editor, run it, and enter
-            the customer details in the specified format. The program will
-            calculate the total cost of the booking based on the number of
-            adults, children, and days. It will display the confirmation message
-            with the total cost or an error message if the input is invalid.
-          </p>
+          SharingMitra conducted a Donation camp in August 2022 at Bhandewadi which is a alum near Nagpur District. We donated Books,laptops and various stationary items to the kids and orphage . It was a succesful event interacting with them .
+        </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
