@@ -53,7 +53,7 @@ const Footer = () => {
            Contact: +91 9324672383
           </li>
           <li>
-           Contact: +91 9324672383
+           Email: contact@sharingmitra.com
           </li>
         
         </ul>
