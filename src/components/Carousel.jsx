@@ -4,11 +4,15 @@ import Image1 from "../images/carousel/carousel2.jpg";
 import Image2 from "../images/carousel/carousel3.jpg";
 import Image3 from "../images/carousel/carousel4.jpg";
 import Image4 from "../images/carousel/carousel5.jpg";
-import { CAROUSEL } from "./constant";
+import Image5 from "../images/carousel/19.png";
+import Image6 from "../images/carousel/18.png";
+import Image7 from "../images/carousel/23.png";
+import Image8 from "../images/carousel/20.png";
+
 import "swiper/css";
 import "./style.scss"
 import { Autoplay, Navigation, Pagination } from "swiper";
-export default () => {
+const C= () => {
   return (
     <Swiper
       spaceBetween={50}
@@ -33,26 +37,30 @@ export default () => {
       })} */}
 
 <SwiperSlide className="carousel-each">
-            <img src={Image} alt="carousel image here" />
+            <img src={Image} alt="carousel here" />
           </SwiperSlide>
           <SwiperSlide className="carousel-each">
-            <img src={Image1} alt="carousel image here" />
+            <img src={Image1} alt="carousel  here" />
           </SwiperSlide>
           <SwiperSlide className="carousel-each">
-            <img src={Image2} alt="carousel image here" />
+            <img src={Image2} alt="carousel  . here" />
           </SwiperSlide>
           <SwiperSlide className="carousel-each">
-            <img src={Image3} alt="carousel image here" />
+            <img src={Image4} alt="carousel  . here" />
           </SwiperSlide>
           <SwiperSlide className="carousel-each">
-            <img src={Image4} alt="carousel image here" />
+            <img src={Image4} alt="carousel  here" />
           </SwiperSlide>
           <SwiperSlide className="carousel-each">
-            <img src={Image} alt="carousel image here" />
+            <img src={Image5} alt="carousel here" />
           </SwiperSlide>
           <SwiperSlide className="carousel-each">
-            <img src={Image1} alt="carousel image here" />
+            <img src={Image6} alt="carousel  here" />
+          </SwiperSlide>
+          <SwiperSlide className="carousel-each">
+            <img src={Image7} alt="carousel  here" />
           </SwiperSlide>
     </Swiper>
   );
 };
+export default C;

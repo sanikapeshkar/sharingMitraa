@@ -89,13 +89,14 @@ nav {
       }
     }
     button {
-      margin-left: 60px;
+     margin-left:90px;
       margin-top: 10px;
       padding: 15px;
-      background-color: rgb(233, 0, 182);
+      background-color: rgb(244, 11, 193);
       font-weight: 400;
       color: white;
       border: none;
+      border-radius: 15px;
     }
   }
 }
@@ -195,29 +196,33 @@ nav {
   }
 }
 .main {
-  opacity: 1;
+
   display: flex;
   margin: 60px;
   img {
     flex: 1;
     padding: 30px;
-    width: 20%;
+    width: 40%;
   }
 
   .side {
-    position: absol;
+ 
     margin-top: 100px;
     left: 100px;
     padding: 50px;
     h1 {
-      font-size: 42px;
+      opacity: 3;
+    
+      z-index:100000000;
+      font-size: 54px;
       color: white;
     }
     button {
-      margin-left: 60px;
+      opacity: 1;
+
       margin-top: 10px;
       padding: 15px;
-      width: 100px;
+      width: 30%;
       background-color: rgb(243, 41, 156);
       font-weight: 800;
       color: white;
@@ -232,7 +237,7 @@ nav {
     text-decoration: none;
   }
   background: rgb(14, 54, 91);
-  background: linear-gradient(144deg, rgb(12, 19, 97) 0%, rgb(5, 8, 11) 63%);
+  background: linear-gradient(144deg, rgb(1, 7, 57) 0%, rgb(10, 38, 67) 63%);
   padding: 1rem 2rem;
   .footer__top {
     border-bottom: 1px solid #fff;

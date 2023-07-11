@@ -12,7 +12,7 @@ export const Groups = () => {
       </div>
       <div className="Groups">
         <div className="container">
-          <img src={Image} alt="image here"></img>
+          <img src={Image} alt="orphanage"></img>
           <h2>ORPHANAGES</h2>
           <p>
             Children are our future of our nation. More than 4% of these children are orphaned
@@ -22,7 +22,7 @@ export const Groups = () => {
           </p>
         </div>
         <div className="container">
-          <img src={Image1} alt="image here"></img>
+          <img src={Image1} alt="elderly homes"></img>
           <h2>ELDERLY HOMES</h2>
           <p>
             Senior citizens are not a burden just disregarded by some. Here’s
@@ -32,7 +32,7 @@ export const Groups = () => {
           </p>
         </div>
         <div className="container">
-          <img src={Image2} alt="image here"></img>
+          <img src={Image2} alt="blind school"></img>
           <h2>BLIND SCHOOL</h2>
           <p>
             There is nothing wrong with being different! If anything, it just

@@ -8,20 +8,20 @@ const Footer = () => {
   return (
     <div className="footer__wrapper">
       <div className="footer__top">
-        <a href="#" className="logo_link">
+        <a href="/home" className="logo_link">
           <img src={Image} alt="sharingjmitra"></img>
         </a>
         <div className="social__icons">
-          <span className="icon__container">
+          <span className="">
             {/* <AiFillInstagram size={30} /> */}
           </span>
-          <span className="icon__container">
+          <span className="">
             {/* <AiOutlineTwitter size={30} /> */}
           </span>
-          <span className="icon__container">
+          <span className="">
             {/* <TiSocialFacebook size={30} /> */}
           </span>
-          <span className="icon__container">
+          <span className="">
             {/* <TiSocialLinkedin size={30} /> */}
           </span>
         </div>
@@ -39,7 +39,7 @@ const Footer = () => {
             <a href="/aboutus">AboutUs </a>{" "}
           </li>
           <li>
-            <a href="#">Contact </a>{" "}
+            <a href="/home">Contact </a>{" "}
           </li>
         </ul>
       </div>
