@@ -199,6 +199,9 @@ nav {
 
   display: flex;
   margin: 60px;
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+  }
   img {
     flex: 1;
     padding: 30px;
@@ -342,6 +345,10 @@ nav {
   display: flex;
   margin: 40px;
   margin-bottom:100px;
+
+  @media screen and (max-width: 900px) {
+  flex-direction: column;
+  }
   .numbers {
     width: 45%;
     height: 100%;
@@ -354,12 +361,21 @@ nav {
     width: 100%;
     background-color: #ffffff;
     color: #081748;
+    @media screen and (max-width: 900px) {
+       width:30%;
+      }
     img {
       height: 50%;
       overflow: hidden;
+      @media screen and (max-width: 900px) {
+       height:20%;
+        }
     }
     p {
       font-size: 20px;
+      @media screen and (max-width: 900px) {
+        font-size:15px;
+         }
     }
   }
 }
@@ -373,6 +389,10 @@ nav {
     img {
       height: 30%;
       width: 100%;
+      @media screen and (max-width: 900px) {
+        height:70%;
+       
+         }
     }
   }
 }
@@ -385,6 +405,9 @@ nav {
   background-size: 2200px;
   background-position: 280px;
   background-repeat: no-repeat;
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+       }
   img {
     height: 600px;
   }
@@ -421,7 +444,9 @@ nav {
     margin-inline-start: 80px;
     margin-inline-end: 80px;
     display: flex;
-
+    @media screen and (max-width: 900px) {
+    flex-direction: column;
+       }
     .container {
       width: 30%;
       background-color: #ffffff;
@@ -431,7 +456,9 @@ nav {
       border-radius: 20px;
       padding: 10px;
       text-align: center;
-
+      @media screen and (max-width: 900px) {
+        width:80%;
+           }
       img {
         width: 100%;
         border-radius: 20px;
