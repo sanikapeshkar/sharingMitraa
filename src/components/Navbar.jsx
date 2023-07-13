@@ -1,10 +1,11 @@
-import React from "react";
+import React ,{ useState } from "react";
 import "./style.scss";
 import Image from "../images/logo.png";
 
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 export const Navbar = () => {
+  const [toggle, setToggle] = useState(true)
   return (
     <section className="navigation">
       <div className="nav-container">
@@ -14,11 +15,12 @@ export const Navbar = () => {
           </a>
         </div>
         <nav>
-          <div class="nav-mobile">
-            <a id="nav-toggle" href="#!">
-              <span></span>
+          <div className="nav-mobile">
+            <a id="nav-toggle" onClick={() => setToggle(!toggle)}   href="#!">
+              <span ></span>
             </a>
           </div>
+          {toggle && (
           <ul class="nav-list">
             <li>
               <a href="/">Home</a>
@@ -33,7 +35,7 @@ export const Navbar = () => {
             <li>
               <a href="#footer">Contact Us</a>
             </li>
-
+   
             <Popup trigger={<button> Donate </button>} modal nested>
               {(close) => (
                 <div className="modal">
@@ -50,12 +52,12 @@ export const Navbar = () => {
                     potential future donation drives.
                   </div>
                   <div>
-                    <button id="pop-upbutton" onClick="">Close </button>
+                    {/* <button id="pop-upbutton" onClick="">Close </button> */}
                   </div>
                 </div>
               )}
             </Popup>
-          </ul>
+          </ul> )}
         </nav>
       </div>
     </section>

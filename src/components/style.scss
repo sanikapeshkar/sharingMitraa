@@ -79,8 +79,6 @@ nav {
           padding-left: 4px;
           content: " ▾";
         }
-
-
       } // Dropdown list
       ul li {
         min-width: 190px;
@@ -89,14 +87,14 @@ nav {
           line-height: 20px;
         }
 
-        .modal{
+        .modal {
           text-align: center;
-          padding:1%;
+          padding: 1%;
         }
       }
     }
     button {
-     margin-left:90px;
+      margin-left: 90px;
       margin-top: 10px;
       padding: 15px;
       background-color: rgb(244, 11, 193);
@@ -107,17 +105,17 @@ nav {
     }
   }
 }
-#pop-upbutton {
-  margin-left:15%;
-  margin-top:2%;
-   padding: 15px;
-   width:60%;
-   background-color: rgb(244, 11, 193);
-   font-weight: 400;
-   color: white;
-   border: none;
-   border-radius: 15px;
- }
+// #pop-upbutton {
+//   margin-left:15%;
+//   margin-top:2%;
+//    padding: 15px;
+//    width:60%;
+//    background-color: rgb(244, 11, 193);
+//    font-weight: 400;
+//    color: white;
+//    border: none;
+//    border-radius: 15px;
+//  }
 
 .nav-dropdown {
   display: none;
@@ -142,7 +140,7 @@ nav {
   }
   nav {
     width: 100%;
-    background-color: #444445;
+
     padding: $nav-height 0 15px;
     ul {
       display: flex;
@@ -150,12 +148,12 @@ nav {
 
       li {
         float: right;
-      
+        background-color: #444445;
 
         a {
           padding: 15px;
           line-height: 20px;
-          color:white;
+          color: white;
           &:hover::before {
             width: 20%;
           }
@@ -218,7 +216,6 @@ nav {
 }
 .main {
 
-  display: flex;
   margin: 60px;
   @media screen and (max-width: 900px) {
     flex-direction: column;
@@ -230,20 +227,12 @@ nav {
   }
 
   .side {
- 
-    margin-top: 100px;
-    left: 100px;
-    padding: 50px;
-    h1 {
-      opacity: 3;
-    
-      z-index:100000000;
-      font-size: 54px;
-      color: white;
-    }
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    top:100px;
+    background-color: #0c0c0c82;
     button {
-      opacity: 1;
-
       margin-top: 10px;
       padding: 15px;
       width: 30%;
@@ -252,6 +241,13 @@ nav {
       color: white;
       border: none;
     }
+  }
+  h1 {
+    text-align: center;
+    font-size: 74px;
+    color: white;
+    padding:130px;
+    z-index: 10000000;
   }
 }
 
@@ -301,7 +297,7 @@ nav {
     }
     .links__list {
       display: flex;
-      width:80%;
+      width: 80%;
 
       li {
         list-style: none;
@@ -318,10 +314,10 @@ nav {
         }
       }
     }
-     .links__listx {
+    .links__listx {
       display: flex;
       flex-direction: column;
-      width:80%;
+      width: 80%;
 
       li {
         list-style: none;
@@ -365,10 +361,10 @@ nav {
 .stats-main {
   display: flex;
   margin: 40px;
-  margin-bottom:100px;
+  margin-bottom: 100px;
 
   @media screen and (max-width: 900px) {
-  flex-direction: column;
+    flex-direction: column;
   }
   .numbers {
     width: 45%;
@@ -383,20 +379,20 @@ nav {
     background-color: #ffffff;
     color: #081748;
     @media screen and (max-width: 900px) {
-       width:30%;
-      }
+      width: 30%;
+    }
     img {
       height: 50%;
       overflow: hidden;
       @media screen and (max-width: 900px) {
-       height:20%;
-        }
+        height: 20%;
+      }
     }
     p {
       font-size: 20px;
       @media screen and (max-width: 900px) {
-        font-size:15px;
-         }
+        font-size: 15px;
+      }
     }
   }
 }
@@ -411,9 +407,8 @@ nav {
       height: 30%;
       width: 100%;
       @media screen and (max-width: 900px) {
-        height:70%;
-       
-         }
+        height: 70%;
+      }
     }
   }
 }
@@ -428,7 +423,7 @@ nav {
   background-repeat: no-repeat;
   @media screen and (max-width: 900px) {
     flex-direction: column;
-       }
+  }
   img {
     height: 600px;
   }
@@ -466,8 +461,8 @@ nav {
     margin-inline-end: 80px;
     display: flex;
     @media screen and (max-width: 900px) {
-    flex-direction: column;
-       }
+      flex-direction: column;
+    }
     .container {
       width: 30%;
       background-color: #ffffff;
@@ -478,8 +473,8 @@ nav {
       padding: 10px;
       text-align: center;
       @media screen and (max-width: 900px) {
-        width:80%;
-           }
+        width: 80%;
+      }
       img {
         width: 100%;
         border-radius: 20px;
