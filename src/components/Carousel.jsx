@@ -2,12 +2,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "../images/carousel/carousel1.jpg";
 import Image1 from "../images/carousel/carousel2.jpg";
 import Image2 from "../images/carousel/carousel3.jpg";
-import Image3 from "../images/carousel/carousel4.jpg";
 import Image4 from "../images/carousel/carousel5.jpg";
 import Image5 from "../images/carousel/19.png";
 import Image6 from "../images/carousel/18.png";
 import Image7 from "../images/carousel/23.png";
-import Image8 from "../images/carousel/20.png";
+
 
 import "swiper/css";
 import "./style.scss"

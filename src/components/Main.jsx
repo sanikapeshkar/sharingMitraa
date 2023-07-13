@@ -6,7 +6,7 @@ export const Main = () => {
     <div className='main'>
       <div className='side'>
           <h1>Share to make a Difference</h1>
-         <p></p>
+         
       </div>
     
    

@@ -15,7 +15,7 @@ function Event() {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: " #FF007F", color: "#000" }}
+          contentStyle={{ background: " ", color: "#000" }}
           contentArrowStyle={{ borderRight: "7px solid  #FF007F" }}
           date={<img src={Image1} alt="here " width="400px"></img>}
           iconStyle={{ background: "#FF007F", color: "#fff" }}

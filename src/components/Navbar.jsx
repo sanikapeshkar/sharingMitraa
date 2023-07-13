@@ -34,13 +34,7 @@ export const Navbar = () => {
               <a href="#footer">Contact Us</a>
             </li>
 
-          
-
-            <Popup
-              trigger={<button> Donate </button>}
-              modal
-              nested
-            >
+            <Popup trigger={<button> Donate </button>} modal nested>
               {(close) => (
                 <div className="modal">
                   <div className="content">
@@ -56,7 +50,7 @@ export const Navbar = () => {
                     potential future donation drives.
                   </div>
                   <div>
-               
+                    <button id="pop-upbutton" onClick="">Close </button>
                   </div>
                 </div>
               )}

@@ -79,12 +79,19 @@ nav {
           padding-left: 4px;
           content: " ▾";
         }
+
+
       } // Dropdown list
       ul li {
         min-width: 190px;
         a {
           padding: 15px;
           line-height: 20px;
+        }
+
+        .modal{
+          text-align: center;
+          padding:1%;
         }
       }
     }
@@ -100,6 +107,17 @@ nav {
     }
   }
 }
+#pop-upbutton {
+  margin-left:15%;
+  margin-top:2%;
+   padding: 15px;
+   width:60%;
+   background-color: rgb(244, 11, 193);
+   font-weight: 400;
+   color: white;
+   border: none;
+   border-radius: 15px;
+ }
 
 .nav-dropdown {
   display: none;
@@ -124,17 +142,20 @@ nav {
   }
   nav {
     width: 100%;
+    background-color: #444445;
     padding: $nav-height 0 15px;
     ul {
-      display: none;
+      display: flex;
+      flex-direction: column;
 
       li {
-        float: none;
+        float: right;
+      
 
         a {
           padding: 15px;
           line-height: 20px;
-
+          color:white;
           &:hover::before {
             width: 20%;
           }

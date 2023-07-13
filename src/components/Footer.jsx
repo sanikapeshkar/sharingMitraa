@@ -47,11 +47,9 @@ const Footer = () => {
         <h2 className="section__title ">Contact</h2>
         <ul className="links__listx ">
           <li>
-            Address: Plot No. 34, New Verma Layout,Opposite to Ambazari Garden (440033)
+            Address: Plot No. 3, New Verma Layout,Opposite to Ambazari Lake(440033)
           </li>
-          <li>
-           Contact: +91 9324672383
-          </li>
+      
           <li>
            Email: contact@sharingmitra.com
           </li>
