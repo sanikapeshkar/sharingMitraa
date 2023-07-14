@@ -86,13 +86,17 @@ nav {
           padding: 15px;
           line-height: 20px;
         }
+      }
 
+      .popup {
         .modal {
-          text-align: center;
-          padding: 1%;
+          .content {
+            padding: 30px;
+          }
         }
       }
     }
+
     button {
       margin-left: 90px;
       margin-top: 10px;
@@ -105,17 +109,6 @@ nav {
     }
   }
 }
-// #pop-upbutton {
-//   margin-left:15%;
-//   margin-top:2%;
-//    padding: 15px;
-//    width:60%;
-//    background-color: rgb(244, 11, 193);
-//    font-weight: 400;
-//    color: white;
-//    border: none;
-//    border-radius: 15px;
-//  }
 
 .nav-dropdown {
   display: none;
@@ -215,14 +208,14 @@ nav {
   }
 }
 .main {
-
+  display: flex;
   margin: 60px;
   @media screen and (max-width: 900px) {
     flex-direction: column;
   }
   img {
     flex: 1;
-    padding: 30px;
+    padding: 50px;
     width: 40%;
   }
 
@@ -230,7 +223,7 @@ nav {
     position: absolute;
     height: 80%;
     width: 100%;
-    top:100px;
+
     background-color: #0c0c0c82;
     button {
       margin-top: 10px;
@@ -242,12 +235,24 @@ nav {
       border: none;
     }
   }
-  h1 {
+  .text {
     text-align: center;
-    font-size: 74px;
     color: white;
-    padding:130px;
+    padding: 100px;
     z-index: 10000000;
+    h1 {
+      font-size: 74px;
+      color: white;
+      z-index: 10000000;
+    }
+    h3 {
+      font-style: italic;
+      text-align:center;
+      font-size: 32px;
+      font-weight: 100;
+      color: rgb(202, 202, 202);
+      z-index: 10000000;
+    }
   }
 }
 
@@ -489,3 +494,4 @@ nav {
     }
   }
 }
+

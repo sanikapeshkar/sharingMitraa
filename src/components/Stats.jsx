@@ -21,7 +21,7 @@ export const Stats = () => {
           <img src={Image} alt="logo here"></img>
           <br></br>
           {counterOn && (
-            <CountUp start={0} end={10250} duration={2} delay={0} />
+            <CountUp start={0} end={25000} duration={2} delay={0} />
           )}{" "}
           + <p> Needy Children impacted</p>
         </div>
@@ -30,7 +30,7 @@ export const Stats = () => {
           <img src={Image} alt="logo here"></img>
           <br></br>
           {counterOn && (
-            <CountUp start={0} end={15000} duration={2} delay={0} />
+            <CountUp start={0} end={50000} duration={2} delay={0} />
           )}{" "}
           + <p>People Made Aware</p>
         </div>
@@ -39,7 +39,7 @@ export const Stats = () => {
           <img src={Image2} alt="logo here"></img>
           <br></br>
           {counterOn && (
-            <CountUp start={0} end={205000} duration={2} delay={0} />
+            <CountUp start={0} end={500000} duration={2} delay={0} />
           )}{" "}
           + Kgs <p>Reduced Carbon Footprints </p>
         </div>

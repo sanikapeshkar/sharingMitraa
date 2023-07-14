@@ -6,7 +6,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="footer__wrapper">
+    <div className="footer__wrapper" id="#footer">
       <div className="footer__top">
         <a href="/home" className="logo_link">
           <img src={Image} alt="sharingjmitra"></img>

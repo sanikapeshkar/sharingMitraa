@@ -1,7 +1,7 @@
 import React ,{ useState } from "react";
 import "./style.scss";
 import Image from "../images/logo.png";
-
+import Image1 from "../images/thankyou.jpg";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 export const Navbar = () => {
@@ -31,19 +31,19 @@ export const Navbar = () => {
             <li>
               <a href="/gallery">Gallery</a>
             </li>
-            <li>
-              <a href="/Blogs">Blogs</a>
-            </li>
 
             <li>
               <a href="/contact">Contact Us</a>
+              <img src={Image}/>
             </li>
+          
    
             <Popup className="popup" trigger={<button> Donate </button>} modal nested>
               {(close) => (
                 <div className="modal">
-                  <img src=""></img>
+
                   <div className="content">
+            
                     We would like to extend our heartfelt gratitude for your
                     willingness to support our cause through donations. However,
                     we regret to inform you that we have reached our donation
@@ -54,9 +54,11 @@ export const Navbar = () => {
                     request you to provide your email address, so we can keep
                     you informed about upcoming events, initiatives, and
                     potential future donation drives.
+                 
+                    <img src={Image1} alt="image here"></img>
                   </div>
                   <div>
-                    {/* <button id="pop-upbutton" onClick="">Close </button> */}
+         
                   </div>
                 </div>
               )}
