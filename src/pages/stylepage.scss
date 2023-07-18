@@ -217,6 +217,7 @@ h1 {
     overflow: hidden;
     margin: 20px;
     height:max-content;
+    max-height: fit-content;
     width: 40%;
     border: 1px solid rgb(60, 59, 59);
     border-radius: 30px;
@@ -237,7 +238,7 @@ h1 {
       }
       a{
        
-        color: #0c0c0c;
+        color: #d621bb;
       }
       
     }
