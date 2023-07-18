@@ -10,8 +10,8 @@ export const Navbar = () => {
     <section className="navigation">
       <div className="nav-container">
         <div className="brand">
-          <a href="#!">
-            <img src={Image} alt="sharingjmitra"></img>
+          <a href="/Home">
+            <img src={Image} alt="sharingmitra"></img>
           </a>
         </div>
         <nav>
