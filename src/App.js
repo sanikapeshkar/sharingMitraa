@@ -27,10 +27,10 @@ function App() {
       path: "/Gallery",
       element: <Gallery/>,
     },
-    {
-      path: "/Blogs",
-      element: <Blogs/>,
-    },
+    // {
+    //   path: "/Blogs",
+    //   element: <Blogs/>,
+    // },
   ]);
   return (
 <div className="app" style={{overflowX:"hidden"}}><RouterProvider router={router} /></div>
