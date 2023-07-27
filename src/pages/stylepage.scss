@@ -103,13 +103,15 @@ body {
 
 div.gallery {
   margin: 20px;
-  border: 1px solid #6c6c6c;
+  border: 1px solid #a2a2a2;
+  border-radius: 30px;
   float: left;
   width: 30%;
 }
 
 div.gallery img {
   opacity: 1;
+  border-radius: 30px;
   display: block;
   width: 100%;
   height: 400px;
@@ -212,8 +214,10 @@ h1 {
   display: flex;
 
   .blog {
+    overflow: hidden;
     margin: 20px;
-    height:800px;
+    height:max-content;
+    max-height: fit-content;
     width: 40%;
     border: 1px solid rgb(60, 59, 59);
     border-radius: 30px;
@@ -234,7 +238,7 @@ h1 {
       }
       a{
        
-        color: #0c0c0c;
+        color: #d621bb;
       }
       
     }
